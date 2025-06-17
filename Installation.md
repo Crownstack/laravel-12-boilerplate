@@ -146,6 +146,7 @@ Remove `../` from line numbers 9, 14 and 18
 Create symbolic link of the "/media" folder & favicon.png file present inside "/public" folder to the root folder of the project:
 
 ```
+ln -s public/.htaccess ./
 ln -s public/media ./
 ln -s public/favicon.png ./
 ln -s public/robots.txt ./
